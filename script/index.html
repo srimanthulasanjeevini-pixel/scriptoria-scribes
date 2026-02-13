@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Filmmaker Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎬 AI Filmmaker Assistant</h1>
+        <p>Generate screenplays, character profiles, and production plans from simple ideas.</p>
+
+        <textarea id="ideaInput" placeholder="Enter your movie idea..."></textarea>
+
+        <div class="buttons">
+            <button onclick="generateContent('screenplay')">Generate Screenplay</button>
+            <button onclick="generateContent('characters')">Generate Character Profiles</button>
+            <button onclick="generateContent('production')">Generate Production Plan</button>
+        </div>
+
+        <div class="output">
+            <h2>Generated Output:</h2>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
